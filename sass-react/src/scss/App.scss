@@ -1,0 +1,23 @@
+@import "./variables";
+@import "./header";
+@import "./function";
+
+button {
+  color: $primary-color;
+  background-color: $secondary-color;
+  &:hover {
+    background-color: rgb(255, 0, 47);
+  }
+}
+
+article {
+ @include flex(orangered,row);
+ @extend button;
+p {
+  color: $primary-color;
+}
+}
+
+h2 {
+  color: $primary-color;
+}

@@ -1,0 +1,8 @@
+@mixin flex($color, $direction) {
+    border: 5px solid $color;
+    height: 100vh;
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}

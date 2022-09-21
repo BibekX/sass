@@ -1,0 +1,14 @@
+@import "./function";
+
+header {
+   @include flex(pink,column); 
+    h1 {
+      background-color: $secondary-color;
+    color: $primary-color;
+    font-size: 65px;
+  }
+}
+
+.header-2 {    
+    @include flex(gold,column);
+}
